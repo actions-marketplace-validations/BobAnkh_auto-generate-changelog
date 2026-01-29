@@ -1,5 +1,16 @@
 # CHANGELOG
 
+## [v1.3.1](https://github.com/BobAnkh/auto-generate-changelog/releases/tag/v1.3.1) - 2026-01-29 12:59:28+00:00
+
+## What's Changed
+
+- Use comparison API to retrive commits between releases
+
+### Bug Fixes
+
+- commit:
+  - use compare to fetch git history ([218d77d](https://github.com/BobAnkh/auto-generate-changelog/commit/218d77d5e4a33cbcb22c286e5a005719a0a419e8))
+
 ## [v1.3.0](https://github.com/BobAnkh/auto-generate-changelog/releases/tag/v1.3.0) - 2025-08-25 09:52:47+00:00
 
 ## What's Changed
