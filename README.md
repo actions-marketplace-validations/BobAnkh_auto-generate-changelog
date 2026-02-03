@@ -30,7 +30,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - uses: BobAnkh/auto-generate-changelog@v1.3.0
+      - uses: BobAnkh/auto-generate-changelog@v1.3.1
         with:
           REPO_NAME: "<YourUserName>/<YourRepoName>"
           ACCESS_TOKEN: ${{secrets.GITHUB_TOKEN}}
