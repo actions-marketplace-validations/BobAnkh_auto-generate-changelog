@@ -198,7 +198,8 @@ class GithubChangelog:
         self.replace_empty_release_info = replace_empty_release_info
         # Use PyGithub to login to the repository
         # References: https://pygithub.readthedocs.io/en/latest/github_objects/Repository.html#github.Repository.Repository
-        g = github.Github(access_token, per_page=100)
+        auth = github.Auth.Token(access_token)
+        g = github.Github(auth=auth, per_page=100)
         self.repo = g.get_repo(repo_name)
         self.author = (
             github.GithubObject.NotSet
