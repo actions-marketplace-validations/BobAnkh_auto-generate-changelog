@@ -1,5 +1,25 @@
 # CHANGELOG
 
+## [v1.3.2](https://github.com/BobAnkh/auto-generate-changelog/releases/tag/v1.3.2) - 2026-04-01 02:08:05+00:00
+
+- Fix release body parse in changelog generation
+- Upgrade to new PyGithub APIs
+
+**Full Changelog**: https://github.com/BobAnkh/auto-generate-changelog/compare/v1.3.1...v1.3.2
+
+### Bug Fixes
+
+- pygithub:
+  - replace deprecated api ([12c2dde](https://github.com/BobAnkh/auto-generate-changelog/commit/12c2dde3cde55d49f15d63a832ab6f90923945f2))
+
+- release:
+  - check null for release body ([71f9c57](https://github.com/BobAnkh/auto-generate-changelog/commit/71f9c57b95efc8696c1c8880d173a564215f7d44))
+
+### Documentation
+
+- readme:
+  - update action version to latest ([40bf649](https://github.com/BobAnkh/auto-generate-changelog/commit/40bf6492661c6c08a4ac7c7472eabfb07f0fd4ad))
+
 ## [v1.3.1](https://github.com/BobAnkh/auto-generate-changelog/releases/tag/v1.3.1) - 2026-01-29 12:59:28+00:00
 
 ## What's Changed
